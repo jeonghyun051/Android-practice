@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:gravity="center"
+        android:text="LoginActivity"
+        android:textSize="50sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/te_email"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/te_password"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아직 회원가입이 되지 않으셨나요?"/>
+
+    <TextView
+        android:id="@+id/txbtn_join"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원가입하러가기"/>
+
+    <TextView
+        android:text="구글 로그인을 하시겠습니까?"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_google_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

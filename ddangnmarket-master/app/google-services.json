@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "293068290913",
+    "firebase_url": "https://ddangnmarket.firebaseio.com",
+    "project_id": "ddangnmarket",
+    "storage_bucket": "ddangnmarket.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293068290913:android:a26e825f06e125c57ae320",
+        "android_client_info": {
+          "package_name": "com.example.ddangnmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293068290913-lggltqsnldqc9h37p14it2bj6cm0c4gq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ddangnmarket",
+            "certificate_hash": "6193bb37cb8159c6ef50472f14fafe19a3dad293"
+          }
+        },
+        {
+          "client_id": "293068290913-1s8vpeqb18vd4279o6rbfipv4d2cg29l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaFpq9Cpz1Y1nvdo27zqsAIsVjYP2UkjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293068290913-1s8vpeqb18vd4279o6rbfipv4d2cg29l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

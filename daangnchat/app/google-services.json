@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "582198307484",
+    "firebase_url": "https://daangnchat-default-rtdb.firebaseio.com",
+    "project_id": "daangnchat",
+    "storage_bucket": "daangnchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582198307484:android:9d0eae4eec204ed1869b59",
+        "android_client_info": {
+          "package_name": "com.cos.daangnchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582198307484-blp7n87ag4feggebcafc99vid3t5u7rr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu8SNcxBoR3Ehrx5w8ZsL7ysMvw_dFMfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582198307484-blp7n87ag4feggebcafc99vid3t5u7rr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

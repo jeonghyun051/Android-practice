@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".src.LocationCertification.LocationCertificationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/profile_iv_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@null"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/home_as_up" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="동네 인증"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:src="@drawable/onboarding_town"/>
+
+    <Button
+        android:id="@+id/location_btn_cert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="현재 위치 받아오기"
+        android:layout_gravity="center"
+        android:textColor="@color/colorOrange"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/location_tv_get_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="위도 : , 경도 : "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/location_btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="동네인증 완료하기"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_margin="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+</LinearLayout>

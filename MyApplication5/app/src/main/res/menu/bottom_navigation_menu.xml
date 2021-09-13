@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_person"
+        android:title=""
+        android:icon="@drawable/ic_person"
+        >
+    </item>
+
+    <item
+        android:id="@+id/bottom_message"
+        android:title=""
+        android:icon="@drawable/ic_message"
+        >
+    </item>
+
+    <item
+        android:id="@+id/bottom_well"
+        android:title=""
+        android:icon="@drawable/ic_well"
+        >
+    </item>
+
+    <item
+        android:id="@+id/bottom_more"
+        android:title=""
+        android:icon="@drawable/ic_more"
+        >
+    </item>
+</menu>

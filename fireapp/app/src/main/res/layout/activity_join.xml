@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/join_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:gravity="center"
+        android:text="JoinActivity"
+        android:textSize="50sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/te_email"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/te_password"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원가입"/>
+
+</LinearLayout>

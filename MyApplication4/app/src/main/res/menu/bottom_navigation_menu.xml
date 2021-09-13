@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_search"
+        android:title="검색"
+        android:icon="@drawable/ic_search"/>
+
+    <item
+        android:id="@+id/bottom_setting"
+        android:title="설정"
+        android:icon="@drawable/ic_setting"/>
+
+    <item
+        android:id="@+id/bottom_menu"
+        android:title="추가메뉴"
+        android:icon="@drawable/ic_navigation"/>
+
+</menu>
